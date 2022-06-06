@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.footer, .container1, .container2 {
+    background-color: #1f2937;
+}
+.container1 {
+    width: 100%;
+    gap: 15%;
+}
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;   
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul {
+    font-weight: 100;
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    display: flex;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 15%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.content1 {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    gap: 10px;
+    padding: 16px;
+}
+.header2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+.information {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 550px;
+    
+}
+.image {
+    background-color: gray;
+    color: #e5e7eb;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+   
+}
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    flex: 0 1 auto;
+    width: 60px;
+    height: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    gap: 40px;
+}
+.header3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.content2 {
+    display: flex;
+    flex-flow: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.image2 {
+    height: 200px;
+    width: 200px;
+    background-color: #219aa3;
+    border-radius: 8px;
+    display: flex;
+    opacity: 50%;
+
+}
+.subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    gap: 10px;
+    
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 60%;
+}
+.signature {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    width: 60%;
+}
+.container5 {
+    display: flex;
+}
